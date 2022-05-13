@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+h1, h2, h3, p {
+    font-family:'Roboto', sans-serif;
+}
+
+.estructura-paginas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+    }
+
+
+/*letra de card*/
+.container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+/*imagen de card*/
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px silver);
+}
+
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.card-group{
+    display: block;
+}
+.contenedor-card{
+    display: block;
+    background-image: center;
+}
+
+/*letra de navegacion header*/
+.nav-link{
+    margin: 4px;
+    font-size: 20px;
+}
+
+.col{
+    width: 100%;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.row{ 
+    padding-bottom: 20%;
+}
+body{
+    margin: 0%;
+    box-shadow: inset;
+}
+
+
+a { 
+    text-decoration:none;
+    color: black;
+}
+
+/*logo principal*/
+.logo-index {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-index a {
+    margin: 0%;
+}
+
+.logo-index img {
+    width: 5rem;
+}
+
+/*----barra de navegacion*/
+
+.barranav{
+    width: 100%;
+}
+
+.barranav ul{ /* SAQUE FLEX, LIMPIE LOS MARGIN Y PADDING INNECESARIOS*/
+    text-align: center;
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+    padding-inline-start: 0%;
+    
+}
+
+.barranav ul li{ /*AGREGE INLINE-BLOCK, ALIGN ITEMS Y JUSTIFY CONTENT*/
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 7px;
+    border-right: 2px solid rgb(17, 101, 48);
+    font-size: large;
+
+}
+
+.barranav ul a{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*BANNER-INICIO foto grande*/
+
+.banner-inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-inicio img {
+    width: 100%;
+    height: 10%;
+    display: block;
+    padding-bottom: 40px;
+    
+}
+
+
+/*titulos generales*/
+h1 {
+    color: rgb(17, 101, 48);
+    font-weight:lighter;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+    font-weight: bold;
+    padding-top: 40px;
+    /*SAQUE MARGIN Y AUTO*/
+    /*AGREGE PADDING-TOP PARA UN ESPACIO ENTRE EL BANNER Y TITULO*/
+    /*SAQUE BACKGROUND POSITION*/
+    /*AGREGUE FONT WEIGHT:BOLD*/
+
+}
+
+/*TITULO INDEX*/
+
+.titulo-principal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.titulo-principal h1, h2{
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+
+/* main index*/
+.grid-somos{
+    display: grid;
+    background-color: #fcfaf9;
+    grid-template-columns: auto;
+   
+}
+
+.somos{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    
+    transition: all .3s ease-in-out;
+}
+
+.somos p{
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+.somos:hover{
+    width: 100%;
+    background-color: rgb(255, 204, 29);
+}
+
+.video-index{
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    
+}
+
+ /* footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(232, 232, 204);
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li {
+    display: inline-block;
+    justify-content: center;
+    padding-top: 2rem;  
+}
+
+/*redes-footer index*/
+.redes{
+    display: flex;
+    margin: 0%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+.redes ul li{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+.redes ul li img{
+    height: 30px;
+    width: 30px;
+    margin: 0%;
+}
+
+/*imagenes curso*/
+
+.main{
+    display: flex;  /*CAMBIO DISPLAY GRID A DISPLAY FLEX*/
+                    /*SACO TODAS LAS COLUMNAS Y ROWS DE GRID*/
+    width: 100%;    /*PUSE EL WIDTH EN 100%*/
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    width: 90%;
+    margin-left: 5%;
+    /*AGREGUE DISPLAY FLEX, FLEX DIRECTION COLUMN, JUSTIFY CONTENT CENTER, TEXT ALIGN Y ITEMS CENTER, WIDTH 90% Y PADDING LEFT 5%*/
+}
+
+.foto {
+    padding-bottom: 2rem;
+    width: 80vw;
+      /*AGREGUE PADDING TOP A LOS DIV PARA EL ESPACIADO ENTRE C/U
+      Y AGREGUE WIDTH 80VW (80% DE VISTA DE LA VENTANA*/
+}
+
+.foto h2 {
+    font-size: 30px;
+}
+
+.foto img,
+.foto-aka img {
+    border-radius: 1rem;
+    border: solid silver;
+    box-shadow: 0 0 10px black;
+}
+
+.contenedor a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Imagenes taller*/
+
+.contenedor-talleres-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    width: 90%;
+    margin-left: 5%;
+ }
+
+.foto-taller{
+    padding-bottom: 2rem;
+    width: 80vw; }
+
+header a{
+    margin: 20px;
+    font-size: 15px;
+}
+
+/*pagina contacto*/
+.ingresa{
+    background-color: rgb(13, 164, 113);
+    font-style: italic;
+    font-size: 20px;
+}
+
+.registra{
+    page-break-inside: auto;
+    font-weight: 40px;
+    padding: 3px;
+    font-style: oblique;
+}
+
+form{
+    padding-bottom: 80px;
+    margin: 30px;
+}
+
+.form-label{
+
+
+}
+
+
+@media screen and (min-width:788px){
+
+/*contenedor de las card y fondo*/
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+    
+}
+
+/*contenedor de las card*/
+.card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+/*contenedor de cada card*/
+.contenedor-card{
+    display: block;
+    padding: 1,5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+/*imagen de card*/
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px silver);
+    width: 100%;
+    margin: 30px;
+    
+}
+
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+    /*BARRA DE NAVEGACION*/
+    .contenedor-barranav {
+        width: 100%;
+        position: fixed;
+        top: 0%;
+    }
+
+    .banner-inicio {
+        padding-top: 0%;
+        height: 1%;
+    }
+    
+    .contenedor-barranav .logo-index {
+        display: block;
+        position: absolute;
+        top: 0%;
+        padding-left: 5px;
+        height: 100px;
+    }
+
+    .logo-index img {
+        width: 3rem;
+        padding-top: 3px;
+    }
+
+    .barranav ul {
+        text-align: end;
+        background-color: whitesmoke;
+        padding-bottom: 5px;
+        padding-right: 10px;
+    }
+
+    .barranav ul li:hover {
+        background-color: #DDC8C4;
+    }
+
+    .barranav ul li {
+        border: solid black;
+        border-radius: 12px;
+        font-size: 20px;
+        margin-right: 10px;
+
+    }
+    
+
+    /*main texto*/
+    .grid-somos{
+        display: grid;
+        background-color: #fcfaf9;
+        grid-template-columns: auto auto;
+       
+    }
+    
+
+    .foto {
+        width: 100%;
+    }
+
+    .foto img {
+        width: 90%;
+    }
+}
+
+    .estructura-paginas {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 10%;
+    }
+    
+
+@media screen and (min-width:1024px) {
+
+    h1{
+        margin: 5px;
+        padding: 30px;
+        font-size: 50px;
+    }
+
+    nav a{
+        color: black;
+        font-size: 30px;
+    }
+
+    .somos{
+        font-style: italic;
+        font-weight:bolder;
+        text-align:center;
+        font-size: 30px;
+        margin: 20px;
+        padding:10px;
+        box-sizing: border-box;
+    }
+
+    .video{
+        width: 100%
+    }
+    }
+
+    .ingresa{
+        font-size: 30px; 
+        text-align:left; 
+    }
+
+    .registra{
+        page-break-inside: auto;
+        font-weight: 0px;
+        padding: 5px;
+        font-style: oblique;
+    }
+
+    .contenedor{
+        display: grid;
+        grid-row-gap: 30px;
+        width: 0%;
+        margin: 0%;
+        padding-left: 4rem;
+    }
+
+    div img{
+        display: grid;
+        width: 100%;
+        margin: 50; 
+    }
+
+    header a{
+        margin: 20px;
+        font-size: 40px;
+    }
+
+    .foto a{
+        font-size: 30px;
+    }
+
+    .paginas{
+        font-size: 30px;
+    }
+
+    .contredes{
+        display: flex;
+        padding: 25px;
+        flex-direction:row;
+        font-size: 25px;
+    }
+    
+    .redes{
+        width: 70px;
+        height: 50px;
+        margin: 30px;
+        font-style: oblique;
+    }
+
+    .estructura-paginas h1{
+       padding-top: 55px;
+       text-decoration: underline;
+
+    }
+   
+    .contenedor-talleres{
+        padding-top: 3rem;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /*COLUMNAS*/
+        grid-template-rows: repeat(1, 1fr);    /*FILAS*/
+        gap: 30px;
+        margin-block-start: 40px;
+        
+     }
+
+    .foto-taller{
+        width: 80%;
+    }
+    
