@@ -1,0 +1,52 @@
+
+/*modelo de pag de cursos y talleres*/
+.estructura-paginas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+}
+
+/*seccion container*/
+.container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+/*grupo de cards*/
+.card-group{
+    display: block;
+}
+
+/*contenedor de cada card*/
+.contenedor-card{
+    display: block;
+    background-image: center;
+}
+
+/*imagen de card*/
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px silver);
+}
+
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+
+

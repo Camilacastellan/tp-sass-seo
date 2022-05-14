@@ -4,49 +4,6 @@ h1, h2, h3, p {
     font-family:'Roboto', sans-serif;
 }
 
-.estructura-paginas {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 30px;
-    padding: 10px;
-    }
-
-
-/*letra de card*/
-.container{
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0%;
-    padding: 0%;
-    
-}
-
-/*imagen de card*/
-.card{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    filter: drop-shadow(5px 5px 5px silver);
-}
-
-.card:hover{
-    transition: 0.5s;
-    transform: scale(1.1);
-}
-
-.card-group{
-    display: block;
-}
-.contenedor-card{
-    display: block;
-    background-image: center;
-}
 
 /*letra de navegacion header*/
 .nav-link{
@@ -326,11 +283,6 @@ header a{
 form{
     padding-bottom: 80px;
     margin: 30px;
-}
-
-.form-label{
-
-
 }
 
 
