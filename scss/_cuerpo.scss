@@ -1,0 +1,179 @@
+/*MAIN DE INDEX*/
+
+/*foto grande*/
+
+.banner-inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+        height: 10%;
+        display: block;
+        padding-bottom: 40px;
+    }
+}
+
+/*texto somos*/
+.grid-somos{
+    display: grid;
+    background-color: #fcfaf9;
+    grid-template-columns: auto;
+}
+
+.somos{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    
+    transition: all .3s ease-in-out;
+
+    p{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    &:hover{
+        width: 100%;
+        background-color: rgb(255, 204, 29);
+    }
+
+}
+
+.video-index{
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;   
+}
+
+/*MAIN DE CURSOS Y TALLERES*/
+
+/*modelo de pag de cursos y talleres*/
+.estructura-paginas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+}
+
+/*seccion container*/
+.container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+/*grupo de cards*/
+.card-group{
+    display: block;
+}
+
+/*contenedor de cada card*/
+.contenedor-card{
+    display: block;
+    background-image: center;
+}
+
+/*imagen de card*/
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px silver);
+
+    &:hover{
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+}
+
+.fotos-paginas{
+    padding: 30px;
+
+    img{
+        padding: 20px;
+        border: #DDC8C4;
+    }
+}
+
+.inscribirme{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+/*MAIN DE REGISTROS AKASHICOS*/
+//estructura paginas 
+
+/*MAIN COACHING-MUSICAL*/
+//estructura paginas 
+
+/* MAIN ESCUELA INTERNACIONAL*/
+//estructura paginas
+
+/*MAIN ETIS*/
+//estructura paginas
+
+.col{
+    width: 100%;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.row{ 
+    padding-bottom: 20%;
+}
+
+/*MAIN NUMEROLOGIA*/
+//estructura paginas
+
+/*MAIN SANACION*/
+//estructura paginas
+
+/*MAIN CONTACTO*/
+//estructura paginas
+.ingresa{
+    background-color: rgb(13, 164, 113);
+    font-style: italic;
+    font-size: 20px;
+}
+
+.registra{
+    page-break-inside: auto;
+    font-weight: 40px;
+    padding: 3px;
+    font-style: oblique;
+}
+
+form{
+    padding-bottom: 80px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

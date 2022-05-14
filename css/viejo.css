@@ -1,16 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&family=Roboto:ital,wght@0,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital,wght@1,300&display=swap');
 
 h1, h2, h3, p {
     font-family:'Roboto', sans-serif;
 }
+listo ambos
+/*MAIN DE CURSOS Y TALLERES*/
+
+/*modelo de pag de cursos y talleres*/ listo 
+.estructura-paginas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+}
+
+/*seccion container*/ listo 
+.container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+/*grupo de cards*/
+.card-group{
+    display: block;
+}
+
+/*contenedor de cada card*/
+.contenedor-card{
+    display: block;
+    background-image: center;
+}
+
+/*imagen de card*/
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px silver);
+}
+
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+/*REGISTROS AKASHICOS MAIN*/
+.inscribirme{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.fotos-registrosaka{
+    padding: 30px;
+}
+
+.fotos-registrosaka img{ listo 
+    padding: 20px;
+    border: #DDC8C4;
+}
+/*copiado*/
 
 
 /*letra de navegacion header*/
 .nav-link{
     margin: 4px;
     font-size: 20px;
-}
+} COPIADO
 
+/*ETIS*/
 .col{
     width: 100%;
     text-align: center;
@@ -20,7 +88,10 @@ h1, h2, h3, p {
 
 .row{ 
     padding-bottom: 20%;
-}
+} listo 
+
+
+NOSE
 body{
     margin: 0%;
     box-shadow: inset;
@@ -44,7 +115,7 @@ a {
 
 .logo-index img {
     width: 5rem;
-}
+} copiado
 
 /*----barra de navegacion*/
 
@@ -76,7 +147,7 @@ a {
     padding: 0%;
 }
 
-/*BANNER-INICIO foto grande*/
+/*BANNER-INICIO foto grande*/ listo 
 
 .banner-inicio {
     width: 100%;
@@ -94,8 +165,8 @@ a {
 }
 
 
-/*titulos generales*/
-h1 {
+/*titulos generales*/listo 
+h1 { listo 
     color: rgb(17, 101, 48);
     font-weight:lighter;
     text-align: center;
@@ -113,7 +184,7 @@ h1 {
 }
 
 /*TITULO INDEX*/
-
+listo 
 .titulo-principal{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -127,7 +198,7 @@ h1 {
 }
 
 
-/* main index*/
+/* main index*/ listo 
 .grid-somos{
     display: grid;
     background-color: #fcfaf9;
@@ -161,9 +232,11 @@ h1 {
     padding-top: 40px;
     padding-bottom: 80px;
     
-}
+} listo 
 
- /* footer */
+
+
+ /* footer */ listo 
 footer{
     width: 100%;
     height: 100px;
@@ -182,7 +255,7 @@ footer ul li {
     padding-top: 2rem;  
 }
 
-/*redes-footer index*/
+/*redes-footer index*/ listo 
 .redes{
     display: flex;
     margin: 0%;
@@ -266,7 +339,7 @@ header a{
     font-size: 15px;
 }
 
-/*pagina contacto*/
+/*pagina contacto*/ LISTO 
 .ingresa{
     background-color: rgb(13, 164, 113);
     font-style: italic;
