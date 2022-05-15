@@ -1,6 +1,55 @@
+/*HEADER GENERAL*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital,wght@1,300&display=swap");
+body {
+  margin: 0%;
+  box-shadow: inset; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.nav-link {
+  margin: 4px;
+  font-size: 20px; }
+
+/*titulo general*/
+h1, h2, h3, p {
+  font-family: 'Roboto', sans-serif; }
+
+h1 {
+  color: #116530;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+  margin-block-end: 0%;
+  margin-block-start: 0%;
+  font-weight: bold;
+  padding-top: 40px; }
+
+/*HEADER INDEX*/
+/*logo principal*/
+.logo-index {
+  display: flex;
+  justify-content: center; }
+  .logo-index a {
+    margin: 0%; }
+  .logo-index img {
+    width: 5rem; }
+
+/*titulo index*/
+.titulo-principal {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .titulo-principal h1, .titulo-principal h2 {
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic; }
+
 /*MAIN DE INDEX*/
 /*foto grande*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital,wght@1,300&display=swap");
 .banner-inicio {
   width: 100%;
   display: flex;
@@ -78,9 +127,9 @@
     transform: scale(1.1); }
 
 .fotos-paginas {
-  padding: 30px; }
+  padding: 0px; }
   .fotos-paginas img {
-    padding: 20px;
+    padding: 0px;
     border: #DDC8C4; }
 
 .inscribirme {
@@ -120,55 +169,6 @@ form {
   padding-bottom: 80px;
   margin: 30px; }
 
-/*HEADER GENERAL*/
-body {
-  margin: 0%;
-  box-shadow: inset; }
-
-a {
-  text-decoration: none;
-  color: black; }
-
-.nav-link {
-  margin: 4px;
-  font-size: 20px; }
-
-/*titulo general*/
-h1, h2, h3, p {
-  font-family: 'Roboto', sans-serif; }
-
-h1 {
-  color: #116530;
-  font-weight: lighter;
-  text-align: center;
-  padding-top: 0.5rem;
-  padding-bottom: 3rem;
-  margin-block-end: 0%;
-  margin-block-start: 0%;
-  font-weight: bold;
-  padding-top: 40px; }
-
-/*HEADER INDEX*/
-/*logo principal*/
-.logo-index {
-  display: flex;
-  justify-content: center; }
-  .logo-index a {
-    margin: 0%; }
-  .logo-index img {
-    width: 5rem; }
-
-/*titulo index*/
-.titulo-principal {
-  padding-top: 20px;
-  padding-bottom: 20px; }
-  .titulo-principal h1, .titulo-principal h2 {
-    padding: 1%;
-    margin: 1%;
-    text-align: center;
-    font-size: xx-large;
-    font-style: italic; }
-
 footer {
   width: 100%;
   height: 100px;
@@ -197,3 +197,118 @@ footer {
       height: 30px;
       width: 30px;
       margin: 0%; }
+
+@media screen and (min-width: 788px) {
+  /*MAIN INDEX*/
+  /*contenedor de las card y fondo*/
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 100%; }
+  /*contenedor de las card*/
+  .card-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  /*contenedor de cada card*/
+  .contenedor-card {
+    display: block;
+    padding: 1,5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  /*imagen de card*/
+  .card {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 30px;
+    filter: drop-shadow(5px 5px 5px silver); }
+    .card:hover {
+      transition: 0.5s;
+      transform: scale(1.1); }
+  /*foto inicio index*/
+  .banner-inicio {
+    padding-top: 0%;
+    height: 1%; }
+  .logo-index img {
+    width: 3rem;
+    padding-top: 3px; }
+  /*main texto*/
+  .grid-somos {
+    display: grid;
+    background-color: #fcfaf9;
+    grid-template-columns: auto auto; }
+  .estructura-paginas {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 10%; } }
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    margin: 5px;
+    padding: 30px;
+    font-size: 50px; }
+  .somos {
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box; }
+  .video {
+    width: 100%; }
+  .registra {
+    page-break-inside: auto;
+    font-weight: 0px;
+    padding: 5px;
+    font-style: oblique; }
+  .contenedor {
+    display: grid;
+    grid-row-gap: 30px;
+    width: 0%;
+    margin: 0%;
+    padding-left: 4rem; }
+  div img {
+    display: grid;
+    width: 100%;
+    margin: 50; }
+  header a {
+    margin: 20px;
+    font-size: 40px; }
+  .foto a {
+    font-size: 30px; }
+  .paginas {
+    font-size: 30px; }
+  .contredes {
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    font-size: 25px; }
+  .redes {
+    width: 70px;
+    height: 50px;
+    margin: 30px;
+    font-style: oblique; }
+  .estructura-paginas h1 {
+    padding-top: 55px;
+    text-decoration: underline; }
+  .contenedor-talleres {
+    padding-top: 3rem;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*COLUMNAS*/
+    grid-template-rows: repeat(1, 1fr);
+    /*FILAS*/
+    gap: 30px;
+    margin-block-start: 40px; }
+  .foto-taller {
+    width: 80%; } }
