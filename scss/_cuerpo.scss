@@ -19,7 +19,7 @@
 /*texto somos*/
 .grid-somos{
     display: grid;
-    background-color: #fcfaf9;
+    background-color: white;
     grid-template-columns: auto;
 }
 
@@ -38,7 +38,7 @@
 
     &:hover{
         width: 100%;
-        background-color: rgb(255, 204, 29);
+        background-color: rgb(146, 84, 200);
     }
 
 }
@@ -57,8 +57,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 30px;
-    padding: 10px;
+    margin: 2px;
+    padding: 5px;
 }
 
 /*seccion container*/
@@ -101,19 +101,28 @@
 
 .fotos-paginas{
     padding:0px;
+    width: 50%;
 
     img{
         padding: 0px;
         border: #DDC8C4;
+        width: 100%;
     }
 }
 
-.inscribirme{
+ .boton-inscribirme{
+    border: solid coral;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+    margin: auto ;
 }
+
+
+
+
 
 /*MAIN DE REGISTROS AKASHICOS*/
 //estructura paginas 
@@ -146,11 +155,7 @@
 
 /*MAIN CONTACTO*/
 //estructura paginas
-.ingresa{
-    background-color: rgb(13, 164, 113);
-    font-style: italic;
-    font-size: 20px;
-}
+
 
 .registra{
     page-break-inside: auto;

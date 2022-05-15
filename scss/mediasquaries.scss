@@ -98,40 +98,6 @@
         font-style: oblique;
     }
 
-    .contenedor{
-        display: grid;
-        grid-row-gap: 30px;
-        width: 0%;
-        margin: 0%;
-        padding-left: 4rem;
-    }
-
-    div img{
-        display: grid;
-        width: 100%;
-        margin: 50; 
-    }
-
-    header a{
-        margin: 20px;
-        font-size: 40px;
-    }
-
-    .foto a{
-        font-size: 30px;
-    }
-
-    .paginas{
-        font-size: 30px;
-    }
-
-    .contredes{
-        display: flex;
-        padding: 25px;
-        flex-direction:row;
-        font-size: 25px;
-    }
-    
     .redes{
         width: 70px;
         height: 50px;
@@ -144,20 +110,6 @@
        text-decoration: underline;
 
     }
-   
-    .contenedor-talleres{
-        padding-top: 3rem;
-        width: 80%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /*COLUMNAS*/
-        grid-template-rows: repeat(1, 1fr);    /*FILAS*/
-        gap: 30px;
-        margin-block-start: 40px;
-        
-     }
-
-    .foto-taller{
-        width: 80%;
-    }
+  
 
 }

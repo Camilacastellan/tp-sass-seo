@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     height: 100px;
-    background-color: rgb(232, 232, 204);
+    background-color: rgb(146, 84, 200);
 
     ul {
         display: flex;
@@ -19,9 +19,9 @@ footer{
 /*redes-footer index*/
 .redes{
     display: flex;
-    margin: 0%;
-    margin-block-start: 0%;
-    margin-block-end: 0%;
+    margin: $margin-nulo ;
+    margin-block-start: $margin-nulo;
+    margin-block-end: $margin-nulo;
 
     ul li{
         display: inline-block;
@@ -36,4 +36,20 @@ footer{
 
         }
     }
+
 }
+
+
+$redes: (
+    twitter: rgb(29, 122, 169),
+    facebook: rgb(3, 3, 57),
+    instagram: rgb(219, 111, 219),
+);
+
+@each $red, $color in $redes {
+    .red-#{$red}{
+        color: $color;
+    }
+}
+
+
