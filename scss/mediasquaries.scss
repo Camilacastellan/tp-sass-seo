@@ -23,8 +23,8 @@
 
     /*contenedor de cada card*/
     .contenedor-card{
-        display: block;
-        padding-top:60px;
+        display: flex;
+        padding-top: 60px;
         justify-content: center;
         align-items: center;
         text-align: center;  

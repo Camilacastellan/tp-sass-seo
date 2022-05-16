@@ -147,11 +147,10 @@ h1 {
   width: 50%; }
   .fotos-paginas img {
     padding: 0px;
-    border: #DDC8C4;
     width: 100%; }
 
 .boton-inscribirme, .uboton {
-  border: solid coral;
+  border: solid #E15FED;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-top: 10px;
@@ -242,7 +241,7 @@ footer {
     justify-content: center; }
   /*contenedor de cada card*/
   .contenedor-card {
-    display: block;
+    display: flex;
     padding-top: 60px;
     justify-content: center;
     align-items: center;
