@@ -134,6 +134,14 @@ h1 {
 
 .card-body {
   padding: 15px; }
+  .card-body a {
+    background-color: white;
+    color: #E15FED;
+    font-size: 20px;
+    border-color: white; }
+
+.card-text {
+  margin-bottom: 10px; }
 
 .card-title {
   font-style: italic;
@@ -307,4 +315,6 @@ footer {
     padding-top: 55px;
     text-decoration: underline; }
   .contenedor-card {
-    padding-top: 60px; } }
+    padding-top: 60px; }
+  h1 {
+    font-size: 4em; } }
