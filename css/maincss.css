@@ -51,15 +51,16 @@ h1 {
 /*MAIN DE INDEX*/
 /*foto grande*/
 .banner-inicio {
-  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .banner-inicio img {
-    width: 100%;
-    height: 10%;
-    display: block;
-    padding-bottom: 40px; }
+  align-items: center;
+  width: 100%; }
+
+.banner-inicio img {
+  width: 100%;
+  height: 10%;
+  display: block;
+  padding-bottom: 40px; }
 
 /*texto somos*/
 .grid-somos {
@@ -81,7 +82,9 @@ h1 {
     background-color: #9254c8; }
 
 .video-index {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 80px; }
@@ -108,12 +111,15 @@ h1 {
 
 /*grupo de cards*/
 .card-group {
-  display: block; }
+  display: block;
+  text-align: center;
+  justify-content: center; }
 
 /*contenedor de cada card*/
 .contenedor-card {
   display: block;
-  background-image: center; }
+  text-align: center;
+  justify-content: center; }
 
 /*imagen de card*/
 .card {
@@ -126,7 +132,17 @@ h1 {
     transition: 0.5s;
     transform: scale(1.1); }
 
+.card-body {
+  padding: 15px; }
+
+.card-title {
+  font-style: italic;
+  font-weight: 1rem; }
+
 .fotos-paginas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0px;
   width: 50%; }
   .fotos-paginas img {
@@ -221,11 +237,13 @@ footer {
   .card-group {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
   /*contenedor de cada card*/
   .contenedor-card {
     display: block;
-    padding: 1,5rem;
+    padding-top: 60px;
     justify-content: center;
     align-items: center;
     text-align: center; }
@@ -265,12 +283,14 @@ footer {
     padding: 30px;
     font-size: 50px; }
   .somos {
+    display: block;
+    justify-content: center;
     font-style: italic;
     font-weight: bolder;
     text-align: center;
     font-size: 30px;
-    margin: 20px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     box-sizing: border-box; }
   .video {
     width: 100%; }
@@ -286,4 +306,6 @@ footer {
     font-style: oblique; }
   .estructura-paginas h1 {
     padding-top: 55px;
-    text-decoration: underline; } }
+    text-decoration: underline; }
+  .contenedor-card {
+    padding-top: 60px; } }
