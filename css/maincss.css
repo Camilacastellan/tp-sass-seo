@@ -243,8 +243,6 @@ footer {
   /*contenedor de las card*/
   .card-group {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center; }
   /*contenedor de cada card*/
@@ -291,6 +289,7 @@ footer {
     font-size: 50px; }
   .somos {
     display: block;
+    flex-flow: row wrap;
     justify-content: center;
     font-style: italic;
     font-weight: bolder;
@@ -315,6 +314,4 @@ footer {
     padding-top: 55px;
     text-decoration: underline; }
   .contenedor-card {
-    padding-top: 60px; }
-  h1 {
-    font-size: 4em; } }
+    padding-top: 60px; } }
