@@ -55,11 +55,13 @@
     justify-content: center;
     align-items: center;
    
-
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 80px;   
+    //operaciones
+    width: 50% * 2;
+    padding-top: 100px --- 60px;
+    padding-bottom: 40px -- 40px;   
 }
+
+
 
 /*MAIN DE CURSOS Y TALLERES*/
 
@@ -142,8 +144,8 @@
     border: solid #E15FED;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 40%;
     margin: auto ;
 }
