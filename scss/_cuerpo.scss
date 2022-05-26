@@ -74,24 +74,20 @@
     padding: 5px;
 }
 
-/*seccion container*/
 
-
-/*grupo de cards*/
 .card-group{
     display: block;
     text-align: center;
     justify-content: center;
 }
 
-/*contenedor de cada card*/
+
 .contenedor-card{
     display: block;
     text-align: center;
     justify-content: center;
 }
 
-/*imagen de card*/
 .card{
     display: inline-block;
     justify-content: center;
@@ -150,19 +146,6 @@
     margin: auto ;
 }
 
-
-/*MAIN DE REGISTROS AKASHICOS*/
-//estructura paginas 
-
-/*MAIN COACHING-MUSICAL*/
-//estructura paginas 
-
-/* MAIN ESCUELA INTERNACIONAL*/
-//estructura paginas
-
-/*MAIN ETIS*/
-//estructura paginas
-
 .col{
     width: 100%;
     text-align: center;
@@ -174,15 +157,8 @@
     padding-bottom: 20%;
 }
 
-/*MAIN NUMEROLOGIA*/
-//estructura paginas
-
-/*MAIN SANACION*/
-//estructura paginas
-
 /*MAIN CONTACTO*/
 //estructura paginas
-
 
 .registra{
     page-break-inside: auto;
@@ -194,6 +170,16 @@
 form{
     padding-bottom: 80px;
     margin: 30px;
+}
+
+.formulario-contacto{
+    text-align: center;
+}
+
+.formulario{
+    display: inline-block;
+    text-align: center;
+    margin: 1%;
 }
 
 
