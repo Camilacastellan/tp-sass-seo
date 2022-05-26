@@ -31,7 +31,8 @@ h1 {
 /*logo principal*/
 .logo-index {
   display: flex;
-  justify-content: center; }
+  justify-content: left;
+  margin: 1%; }
   .logo-index a {
     margin: 0%; }
   .logo-index img {
