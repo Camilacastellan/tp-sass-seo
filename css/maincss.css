@@ -31,12 +31,24 @@ h1 {
 /*logo principal*/
 .logo-index {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   margin: 1%; }
   .logo-index a {
     margin: 0%; }
   .logo-index img {
     width: 5rem; }
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center; }
+
+.container-fluid {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center; }
 
 /*titulo index*/
 .titulo-principal {
@@ -160,7 +172,7 @@ h1 {
   padding-top: 30px; }
 
 .row {
-  padding-bottom: 20%; }
+  padding-bottom: 10%; }
 
 /*MAIN CONTACTO*/
 .registra {
@@ -180,6 +192,12 @@ form {
   display: inline-block;
   text-align: center;
   margin: 1%; }
+
+/*MAIN UBICACION*/
+.mapa {
+  text-align: center;
+  padding-bottom: 3%;
+  margin: 5%; }
 
 footer {
   width: 100%;

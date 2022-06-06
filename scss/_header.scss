@@ -37,8 +37,8 @@ h1 {
 /*logo principal*/
 .logo-index {
     display: flex;
-    justify-content: left;
-    margin:1%;
+    justify-content: center;
+    margin: 1%;
 
     a{
         margin: 0%;
@@ -48,6 +48,23 @@ h1 {
         width: 5rem;
     }
 }
+
+.navbar-collapse {
+
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container-fluid{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+ }
 
 /*titulo index*/ 
 .titulo-principal{
